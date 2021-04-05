@@ -63,9 +63,9 @@ export default class Game extends Component {
                     </div>
                 }
                 {finish && 
-                    <div className="game-card">
+                    <div className="game-card centering">
                         <h1>Terminado</h1>
-                        <img className="img-finish" src="https://www.flaticon.com/svg/vstatic/svg/4236/4236706.svg?token=exp=1617634638~hmac=f85c9e77600938de7d5c74dc45b26af7" alt="Finished" />
+                        <img className="img-finish" src="http://assets.stickpng.com/thumbs/5aa78e207603fc558cffbf19.png" alt="Finished" />
                     </div>
                 }
             </div>
